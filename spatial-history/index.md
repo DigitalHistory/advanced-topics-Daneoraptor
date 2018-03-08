@@ -1,4 +1,21 @@
-# This Map Should Deal with a Historical Topic You Care About
+# Japanese Internment: "No" & "No"
+
+Executive Order 9066, signed by Franklin D. Roosevelt on February 19, 1942,
+started the process of Japanese internment that would continue into 1946 in the
+United States.  Hundreds of thousands of Japanese people--the majority of whom
+were also American citizens--were put into camps throughout the U.S.
+
+Tule Lake was similar to the other nine camps until 1943, when the "loyalty
+questionnaire" was released.  The U.S. was in need of more soldiers and activists
+asked the government to give the Japanese people a chance to prove themselves
+as loyal Americans.  The questionnaire overall was unfair and vague, but two
+particular questions, 27 & 28, caused controversy:
+
+"27. *Are you willing to serve in the armed forces of the United States on combat duty, wherever ordered?*"
+
+"28. *Will you swear unqualified allegiance to the United States of America and faithfully defend the United States from any and all attacks by foreign and domestic forces, and forswear any form of allegiance or disobedience to the Japanese Emperor, or any other foreign government, power, or organization?*"
+
+
 
 Your first task will be to locate some real places.  You can get the precise locations at various services, e.g [latlong.net](http://www.latlong.net/).
 
