@@ -9,7 +9,7 @@ var my_markers = []; // we use this in the main loop below to hold the markers
 // infowindow object -- its content and position change when you click on a
 // marker.  This is counterintuitive, but we need to live with it.
 var infowindow = new google.maps.InfoWindow({content: ""});
-var legendHTML = "<h1>Legend</h1>";
+var legendHTML = "<h1>Camps</h1>";
 
 // I'm complicating things a bit with this next set of variables, which will help us
 // to make multi-colored markers
@@ -61,64 +61,80 @@ function initializeMap() {
               icon: redURL, // this sets the image that represents the marker in the map to the one
                              // located at the URL which is given by the variable blueURL, see above
               title: "Tule Lake",
-              window_content: "<h1>Tule Lake</h1><p>Tule Lake is one of the more well-known War Relocation Centres due to the"+
-              "harsher living coniditions.  In addition, after the Loyalty Questionnaire was released, internees in any camp"+
-              "who answered 'No' to both questions 27 & 28 were sent here to be punished and potentially deported.</p>"
+              window_content: "<h3>Tule Lake</h3><p><b>Tule Lake</b> is one of the more well-known War Relocation Centres due to the"+
+              " harsher living coniditions.  In addition, after the Loyalty Questionnaire was released, internees in any camp"+
+              " who answered 'No' to both questions 27 & 28 were sent here to be punished and potentially deported. Learn more about" +
+              " Tule Lake <a href='http://www.tulelake.org'>here</a>.</p>"
              },
              {position: new google.maps.LatLng(36.728333, -118.154444),
               map: my_map,
               icon: blueURL, // this sets the image that represents the marker in the map
               title: "Manzanar",
-              window_content: "<h1>Manzanar</h1><p> and <a href='http://something'>this would</a> be the extended description</p>"
+              window_content: "<h3>Manzanar</h3><p><b>Manzanar</b> began as an 'assembly centre' and went on to be closely " +
+              "guarded due to the high tensions in the camp.  You can find out more information about it" +
+              " <a href='http://www.janm.org/projects/clasc/manzanar.htm'>here</a>.</p>"
              },
              {position: new google.maps.LatLng(33.9875, -114.401111),
               map: my_map,
               icon: blueURL, // this sets the image that represents the marker in the map
               title: "Poston",
-              window_content: '<h1>Poston</h1><img title="Picture of Quote. Src: someone, some year"  src="https://s-media-cache-ak0.pinimg.com/736x/6d/e2/25/6de2251b8b4be709dcc936ae4f0caaaf.jpg"/>' +
-              '<blockquote>quote quote quote quote</blockquote>'
+              window_content: '<h3>Poston</h3><p><b>Poston</b> was the biggest camp geographically and other than Tule Lake,'
+              + ' had the highest population.  Check out some more information on Poston' +
+              ' <a href="http://www.janm.org/projects/clasc/poston.htm">here</a>.</p>'
              },
              {position: new google.maps.LatLng(33.065083, -111.830528),
               map: my_map,
               icon: blueURL, // this sets the image that represents the marker in the map
               title: "Gila River",
-              window_content: "<h1>Gila River</h1><p> and <a href='http://something'>this would</a> be the extended description</p>"
+              window_content: "<h3>Gila River</h3><p><b>Gila River</b> in Arizona was on an Indian reservation, much like Poston."+
+              "  Despite its name, it was on a desert.  You can learn more about it "+
+              "<a href='http://www.janm.org/projects/clasc/gila.htm'>here</a>.</p>"
              },
              {position: new google.maps.LatLng(38.049444, -102.328611),
               map: my_map,
               icon: blueURL, // this sets the image that represents the marker in the map
               title: "Granada",
-              window_content: "<h1>Granada</h1><p> and <a href='http://something'>this would</a> be the extended description</p>"
+              window_content: "<h3>Granada</h3><p><b>Granada</b> had the lowest population of all the camps, yet had the most"+
+              " 'yes-yes' (as opposed to no-no) answers. More about Granada can be learned <a href='http://www.janm.org/projects/clasc/granada.htm'>here</a>.</p>"
              },
              {position: new google.maps.LatLng(44.671667, -108.946389),
               map: my_map,
               icon: blueURL, // this sets the image that represents the marker in the map
               title: "Heart Mountain",
-              window_content: "<h1>Heart Mountain</h1><p> and <a href='http://something'>this would</a> be the extended description</p>"
+              window_content: "<h3>Heart Mountain</h3><p><b>Heart Mountain</b> was the site of many hospitalizations due to the"+
+              " harsh weather and terrible living conditions. It was known for its duststorms and rattlesnakes."+
+              " More information can be accessed <a href='http://www.janm.org/projects/clasc/ht_mt.htm'>here</a>.</p>"
              },
              {position: new google.maps.LatLng(42.679, -114.244),
               map: my_map,
               icon: blueURL, // this sets the image that represents the marker in the map
               title: "Minidoka",
-              window_content: "<h1>Minidoka</h1><p> and <a href='http://something'>this would</a> be the extended description</p>"
+              window_content: "<h3>Minidoka</h3><p><b>Minidoka</b> was considered to be the best camp to live in due to kind"+
+              " administration and the good morale of the population there.  You can learn more about it"+
+              " <a href='http://www.janm.org/projects/clasc/minidoka.htm'>here</a>.</p>"
              },
              {position: new google.maps.LatLng(39.41, -112.77),
               map: my_map,
               icon: blueURL, // this sets the image that represents the marker in the map
               title: "Topaz",
-              window_content: "<h1>Topaz</h1><p> and <a href='http://something'>this would</a> be the extended description</p>"
+              window_content: "<h3>Topaz</h3><p><b>Topaz</b> had some of the harshest weather and living conditions, all the way from"+
+              " freezing winters to hot summers with dust storms.  More information can be seen "+
+              "<a href='http://www.janm.org/projects/clasc/topaz.htm'>here</a>.</p>"
              },
              {position: new google.maps.LatLng(33.766297, -91.280158),
               map: my_map,
               icon: blueURL, // this sets the image that represents the marker in the map
               title: "Rohwer",
-              window_content: "<h1>Rohwer</h1><p> and <a href='http://something'>this would</a> be the extended description</p>"
+              window_content: "<h3>Rohwer</h3><p><b>Rohwer</b> was yet another site with high tensions, and despite the good soil, many"+
+              " had difficulty farming here.  You can learn more about Rohwer <a href='http://www.janm.org/projects/clasc/rohwer.htm'>here</a>.</p>"
              },
              {position: new google.maps.LatLng(33.411667, -91.4611119),
               map: my_map,
               icon: blueURL, // this sets the image that represents the marker in the map
               title: "Jerome",
-              window_content: "<h1>Jerome</h1><p> and <a href='http://something'>this would</a> be the extended description</p>"
+              window_content: "<h3>Jerome</h3><p><b>Jerome</b> may have had low security, but its geography ensured that few (if any) would be able "+
+              "to escape.  It was also in operation for the shortest amount of time, with many of the internees going to different camps after it "+
+              "closed down.  More information can be accessed <a href='http://www.janm.org/projects/clasc/jerome.htm'>here</a>.</p>"
             },
             ];
 
@@ -154,7 +170,7 @@ function initializeMap() {
     document.getElementById("map_legend").innerHTML = legendHTML;
   my_map.data.addGeoJson(myGeoJSON);
 
-  var romeCircle = new google.maps.Rectangle({
+  var biggestPopulation = new google.maps.Rectangle({
     strokeColor: '#00FF00',
     strokeOpacity: 0.8,
     strokeWeight: 2,
