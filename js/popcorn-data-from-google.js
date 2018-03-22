@@ -6,8 +6,9 @@ var loadPopcorn = function(){
     // Next we need to identify which Google spreadsheet we're going to want to use.
     // You'll need to change the key to match your spreadsheet.  Remember, this is the
     // part in the spreadsheet URL that comes between "key=" and "&"
-    // It's very important, though, to keep the same column headers as in our example spreadsheet!
+    // It's very important, though, to keep the same column headers as in our example spreadsheet
     var public_spreadsheet_key = 'https://docs.google.com/spreadsheets/d/1pL_Lj62_ZcW7iawTCQ_5BQsmdynCtC8y5BCNy3k2LOM/pubhtml?gid=0&single=true';
+    //var public_spreadsheet_key = 'https://docs.google.com/spreadsheets/d/1pL_Lj62_ZcW7iawTCQ_5BQsmdynCtC8y5BCNy3k2LOM/pubhtml?gid=0&single=true';
     //https://docs.google.com/spreadsheets/d/1pL_Lj62_ZcW7iawTCQ_5BQsmdynCtC8y5BCNy3k2LOM/pubhtml?gid=0&single=true
     //https://docs.google.com/spreadsheets/d/1lgjwVi95KaxbP8e06G74NLdtCMDGtFSMmaIy0Fv5glM/edit?usp=sharing
 
