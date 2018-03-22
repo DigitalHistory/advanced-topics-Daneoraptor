@@ -54,7 +54,7 @@ var loadPopcorn = function(){
             // this is another debugging line -- if things aren'tworking right you can uncomment it & see what's going wrong
             // in the console.
             console.log(pop);
-        };
+        }
     }
 
     // one more function that allows us to write start and end times in human-friendly format like 1:05:14.6
