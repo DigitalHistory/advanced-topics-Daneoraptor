@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- stream.result.vm -->
+<title>ROHO Audio Files</title>
+<meta http-equiv="Pragma" content="no-cache"/>
+<meta http-equiv="Expires" content="-1"/>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+<link rel="stylesheet" href="styles/styles.css" type="text/css"/>
+<script type="text/javascript" src="javascript/jwplayer.js"></script>
+<style type="text/css">
+.flash{
+font-family: Verdana, Helvetica, sans-serif;
+font-size: 12pt;
+padding-left: 20pt;
+}
+</style>
+</head>
+<body>
+
+<!-- Banner -->
+<table width="100%" cellpadding="0" cellspacing="0" id="banner">
+  <tr valign="top">
+    <td width="80px" style="border-bottom: 1px solid #d4cd96;">
+      <a href="http://www.lib.berkeley.edu"><img src="images/library_logo.gif" border="0" alt=""></a>
+    </td>
+    <td style="border-bottom: 1px solid #d4cd96; valign: middle;">
+      <div id="banner-collection"><a href="http://bancroft.berkeley.edu/ROHO" id="banner-link">ROHO Audio Files</a></div> 
+    </td>
+  </tr>
+</table>
+
+<div id="content">
+
+<div class="body-catalog-link"><a href="http://oskicat.berkeley.edu/record=" target="_blank">View Catalog Record</a></div>
+
+<div class="player-box">
+<div class="player-label">(0:04:24)</div>
+<div id="player_1">Loading the player...</div>
+
+<script type="text/javascript">
+jwplayer("player_1").setup({
+height: 30,
+primary: 'html5',
+sources: [{
+file: "http://vm147.lib.berkeley.edu:1935/ROHOAudio/mp3:galloway1.mp3/manifest.f4m"
+},{
+file: "http://vm147.lib.berkeley.edu:1935/ROHOAudio/mp3:audio/galloway1.mp3/playlist.m3u8"
+},{
+file: "rtmp://vm147.lib.berkeley.edu:1935/ROHOAudio/mp3:galloway1.mp3"
+}],
+rtmp: {
+bufferlength: 3
+},
+fallback: true
+});
+</script>
+</div>
+
+</div>
+<br><br><br>
+<div class="flash">Flash must be enabled on your machine in order to play this video. If you see an error message indicating
+no playable source found, please follow these instructions to enable Flash:
+<p>For Firefox users: Disable any Flash-block add-ons. <a href="https://helpx.adobe.com/flash-player/kb/enabling-flash-player-firefox.html">Enable Flash Player for Firefox</a></p>
+<p>For Chrome: <a href="https://helpx.adobe.com/flash-player/kb/enabling-flash-player-chrome.html">Enable Flash Player for Google Chrome</a></p>
+</div>
+</body>
+</html>
