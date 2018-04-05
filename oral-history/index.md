@@ -1,6 +1,6 @@
-# Your Title should go in the appropriate place in `index.html`, not here! Title is itself set only in the `<head>` element
+/* # Your Title should go in the appropriate place in `index.html`, not here! Title is itself set only in the `<head>` element
 
-## Use headings only if you want to have subsections in your essay
+/* ## Use headings only if you want to have subsections in your essay */
 
 <div class="sidepanel">
               <!-- This is the div where all the popcorn action will hapen -->
