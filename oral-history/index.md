@@ -1,16 +1,38 @@
-/* # Your Title should go in the appropriate place in `index.html`, not here! Title is itself set only in the `<head>` element
-
-/* ## Use headings only if you want to have subsections in your essay */
-
 <div class="sidepanel">
               <!-- This is the div where all the popcorn action will hapen -->
               <div id="popcorn-container">
               </div>
             </div>
 
+You can find a transcript of the interview <a href="http://bancroft.berkeley.edu/collections/drilm/collection/items/galloway1_transcript.html">here</a>.
 
+**Complexities of Disability Rights Activism**
 
-Add your content here, including _markup_ of **various kinds**. Now you can just write! But you should be aware of a couple of advanced features of markdown:
+With the threat of disability rights possibly being taken away in the States, it is imperative to continue discussions of disability justice and address the complex histories surrounding such activism.  This essay will explore the limitations of the disability rights movement and how one could move forward with disability justice.
+
+This audio clip is an interview with Donald Galloway, a prominent Black, blind activist known for his work with Ed Roberts and the first Centre for Independent Living (CIL) in Berkeley, California.  Here, he discusses the process of integrating blind people into the programs at CIL, which was originally mostly intended to cater to people with motor disabilities.  The CIL went on to inspire the creation of other Centres, and soon an organization called the National Council on Independent Living (NCIL) made it much easier for disabled people to seek accommodations and services so as to live on their own.
+
+This is also one of the only interviews that connects the disability rights movement to the Black Panther Party; despite having a huge hand in the successes of the movement, the Black Panthers are rarely ever mentioned in discourse surrounding disability rights activism.  This, I believe, is white supremacy in action as well as a failure to address disability justice (which is intersectional) instead of disability rights (which focuses much more on white, physically disabled, non-queer bodies).
+
+**The CIL & Accommodating for the Blind**
+
+To further analyze the interview, it would be good to start with the notion that it took a while to integrate the blind community into the CIL.  In another interview, Galloway states that he didn't notice many people outside of the paraplegic community being served, much less non-white people[^first].  Disability rights activism, though it was extremely successful in many ways, often had limits such as these.  The CIL struggled to expand to the blind community, and even today, the D/deaf community is still rather isolated from other disability communities.  Many of these struggles come from internalized ableism and the idea that some disabilities are worse (make someone worth less) than others.  However, as time goes on, more programs that accommodate for many different types of disabilities are being developed with the help of different activists with different disabilities and backgrounds.
+
+Galloway addresses some of the problems blind people faced, and though he wasn't very specific, he does briefly discuss how he addressed the limitations.  He was hired to negotiate and ensure that there were services provided to blind people by the CIL, which was quite progressive for the time.  Even in contemporary times, many organizations tend to hire able-bodied people to provide accommodation services without truly knowing what disabled people need. Galloway criticizes the limitations of such organizations, yet it seems that he approves of the CIL's decision to appeal to blind people and take him on, as well.  
+
+**The Erasure of BIPoC Activism**
+
+I was an intern with the U.S. Access Board in Washington, D.C., which worked to create better spaces for disabled people to move around and determined what defined legally accessible spaces.  During the course of my internship, I learned a lot about disability rights activism in the past, but only after digging through piles of material did I realize the hand other groups, including the Black Panthers, played in ensuring disability rights legislation passed.  While I suspected that this was racism and erasure of the role of people of colour in activism, it didn't become clear to me until I attended the NCIL conference and white disabled people wouldn't stop talking in the moment of silence meant to honour the lives of Black disabled men killed that year.  Thus, it became imperative to me that discussions of the history surrounding the Black Panther Party and their contributions come to light more often.
+
+The fact that this is the only interview that I could find that even mentioned the Black Panther Party (and their contributions to the cause weren't even named!) astonished me.  I thought that while it was a lesser known topic, there would be more information about it elsewhere.  Galloway talks more about the Panthers and their involvement in other interviews, stating that they were very receptive to the needs of the CIL and the disability rights movement.  He states that their goals, however, were different, so it made no sense to combine the movements; however, I feel that this is limiting and this sort of attitude led to the erasure of the Black Panthers (and people of colour as a whole) from the movement.  In order for true progress to be made, I believe that different activist groups have to work together; after all, you will always have disabled people of colour, too.  Without an intersectional approach, there will always be limits to what different groups and activists can achieve.
+
+**The Case for Disability Justice**     
+
+To conclude, the threats of shutting down different disability rights organizations and taking away laws that protect disabled people's rights must be combatted differently.  There _must_ be discussion on the outstanding numbers of murders of disabled people of colour (specifically, Black and Indigenous bodies) as well as the lack of disability organizations helping communities of colour.  Groups like Black Lives Matter are already working with disabled activists, but how long will it take until disability justice (instead of rights) is embraced by the greater disabled community?  I believe it won't be long until we must work together again to strive towards a better future for all of us.
+
+[^first]: You can read a transcript of the interview mentioned <a href="http://content.cdlib.org/view?docId=hb5w1004cj;NAAN=13030&doc.view=frames&chunk.id=div00059&toc.depth=1&toc.id=&brand=calisphere">here</a>.  He discusses the CIL and its relationship to both Black people and the Black Panther Party.
+
+<!-- Add your content here, including _markup_ of **various kinds**. Now you can just write! But you should be aware of a couple of advanced features of markdown:
 - you can embed HTML directly n a markdown file. This is great if you want to add complex attributes like **classes**, e.g. to your `img` tags so that they display properly.
   - another use of embedded HTML is for funky javascript function links. I've written a simple function that will seek to a particular time code in seconds.  You can call it like this: `<a href="javascript:seek(75)">seek to 1:15</a>`, but `[seek to 1:15](javascript:seek(75))` won't render properly, so you have to type the whole linke in, as seen here: <a href="#" onclick="javascript:seek(75)"> seek to 1:15</a>.
   - also, Remarkable supports pandoc-style footnotes, which can be helpful sometimes. Here are some examples of footnotes at work:
@@ -21,7 +43,7 @@ Add your content here, including _markup_ of **various kinds**. Now you can just
 
     Inline footnote^[Text of inline footnote] definition.
 
-    Duplicated footnote reference[^second].
+    Duplicated footnote reference[^second]
 
 you can learn more about remarkable on [its github page](https://github.com/jonschlinkert/remarkable), and get a fuller sense of the syntax [in the online demo](https://jonschlinkert.github.io/remarkable/demo/)
 
@@ -30,4 +52,4 @@ you can learn more about remarkable on [its github page](https://github.com/jons
 
     and multiple paragraphs.
 
-[^second]: Footnote text.
+[^second]: Footnote text. -->
